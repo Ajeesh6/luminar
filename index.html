@@ -13,7 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
-        <script src="https://kit.fontawesome.com/ee3a7336f9.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ee3a7336f9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./luminar.css">
 </head>
 
@@ -22,11 +22,15 @@
     <div class="navbar navbar-expand-sm bar text-white">
         <div class="container-fluid">
             <p class="query-bar" style="margin-left:200px ;margin-bottom:5px;margin-top:3px ;
-            font-family: 'Montserrat', sans-serif;">Have any query? +91 8086 651 651</p>
-            
-            <p class="query-bar1" style="margin-right:200px ;margin-bottom:5px ;margin-top:3px ;font-family: 'Montserrat', sans-serif;"> <i class="fa-solid fa-phone"></i> +91 8086 651 651 <i class="fa-solid fa-envelope"></i> contact@luminartechnolabs.com</p>
+            font-family: 'Montserrat', sans-serif;font-size: 12px;">Have any question? +91 8086 651 651</p>
+
+            <p class="query-bar1"
+                style="margin-right:200px ;margin-bottom:5px ;margin-top:3px ;font-family: 'Montserrat', sans-serif;font-size: 12px;">
+                <i class="fa-solid fa-phone"></i> +91 8086 651 651 <i class="fa-solid fa-envelope"></i>
+                contact@luminartechnolabs.com
+            </p>
         </div>
-        
+
 
     </div>
 
@@ -34,7 +38,8 @@
 
     <nav class="navbar navbar-expand-lg bg-white">
         <div class="container">
-            <a class="navbar-brand text-white" href="#"><i class="fa-brands fa-bootstrap fs-3"></i></a>
+            <a class="navbar-brand text-white" href="#"><img src="./images/logo1.jpeg" alt=""
+                    style="height:55px; width:230px ;margin-left: 100px;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -43,8 +48,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item1">
-                        <a class="nav-link " aria-current="page" href="#"><img src="./images/logo1.jpeg" alt=""
-                                style="height:55px; width:245px ;"></a>
+                        <a class="nav-link " aria-current="page" href="#"></a>
                     </li>
 
 
@@ -119,56 +123,58 @@
 
     <button type="button" id="b4" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Launch demo modal
-      </button>
+    </button>
 
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p style="font-size:25px ;">Get Training Quote for free</p>
+                    <br>
+                    <form action="">
+                        <input style="border: none;" type="text" placeholder="Name">
+                        <hr>
+                        <input style="border: none;" type="email" placeholder="Email">
+                        <hr>
+                        <input style="border: none;" type="text" placeholder="Number">
+                        <hr>
+                        <select style="border: none;" name="Select course Interested In" id="">
+                            <option selected="true" disabled="disabled">Select Course interested in</option>
+                            <option value="">Data science ML - AI Big data with cloud &amp; Tableau</option>
+                            <option value="">Python Django - Angular -Full stack web development expert</option>
+                            <option value="">Software testing specialist</option>
+                            <option value="">MEARN Stack Web development expert -Angular &amp; React </option>
+                            <option value="">Business analytics -Power BI &amp; tableau</option>
+                            <option value=""> Android developer expert training in Kochi - Flutter </option>
+                            <option value="">Python Data Science with ML &amp; AI - &amp; Tablaeu</option>
+                        </select>
+                        <hr>
+                        <input style="border: none;" type="text" placeholder="City">
+                        <hr>
+                        <textarea style="border: none;" name="" id="" cols="45" rows="5"
+                            placeholder="Comments"></textarea>
+
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="b3" class="btn btn-primary modal-button">SUBMIT</button>
+                </div>
             </div>
-            <div class="modal-body">
-                <p style="font-size:25px ;">Get Training Quote for free</p>
-                <br>
-                <form action="">
-                  <input style="border: none;" type="text" placeholder="Name">
-                  <hr>
-                  <input style="border: none;" type="email" placeholder="Email">
-                  <hr>
-                  <input style="border: none;" type="text" placeholder="Number">
-                  <hr>
-                  <select style="border: none;" name="Select course Interested In" id="">
-                    <option selected="true" disabled="disabled">Select Course interested in</option>
-                      <option value="">Data science ML - AI Big data with cloud &amp; Tableau</option>
-                      <option value="">Python Django - Angular -Full stack web development expert</option>
-                      <option value="">Software testing specialist</option>
-                      <option value="">MEARN Stack Web development expert -Angular &amp; React </option>
-                      <option value="">Business analytics -Power BI &amp; tableau</option>
-                      <option value=""> Android developer expert training in Kochi - Flutter </option>
-                      <option value="">Python Data Science with ML &amp; AI - &amp; Tablaeu</option>
-                  </select>
-                  <hr>
-                  <input style="border: none;" type="text" placeholder="City">
-                  <hr>
-                  <textarea style="border: none;" name="" id="" cols="45" rows="5" placeholder="Comments"></textarea>
-    
-                </form>
-    
-            </div>
-            <div class="modal-footer" >
-              <button type="button" id="b3" class="btn btn-primary modal-button" >SUBMIT</button>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
 
     <div class="container" style="margin-top:40px ;">
-        <div class="row">
+        <div class="row ">
             <div class="col-lg-7">
                 <div class="about-container">
                     <h3>Luminar Technolab Pvt Ltd </h3>
                     <h4 style="color:#5e068a99">CIN: U80220KL2021PTC071578</h4>
-                    <p class="p2">Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on providing
+                    <p class="p2">Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on
+                        providing
                         advanced level
                         software training to Students and by helping them to get placed in IT companies. We are a team
                         of IT professionals
@@ -191,6 +197,100 @@
             </div>
 
         </div>
+    </div>
+
+    <div class="container ">
+        <div class="header-sec" style="text-align: center; margin-top:20px;">
+            <h2 style="color:#5e068a ;margin-bottom: 35px;">OUR <span style="color:#805695 ;">COURSES</span></h2>
+
+        </div>
+
+        <div class="container">
+            <div style="text-align:center ; margin-top:30px;">
+                <div class="row r1">
+                    <div class="col-lg-6 col-sm-12">
+                        <img src="./images/data-science.jpg" alt=""
+                            style=" width: 100%  ; height: 350px;background-size: cover;background-repeat: no-repeat;background-position: center;">
+                    </div>
+                    <div class="col-lg-6 col-sm-12" style="text-align:left ;padding-right: 15px;padding-left: 15px;">
+                        <h3
+                            style="font-size: 20px;line-height: 25px;margin-bottom: 15px;font-weight: 700;color: #5e068a;margin-top: 20px; ">
+                            DATA SCIENCE - ML - AI - BID DATA WITH CLOUD &amp; TABLEAU</h3>
+                        <p>Python, Hadoop, Spark, Data Analytics, Linear Algebra, Statistics, Probability Concepts,
+                            Machine
+                            Learning, Deep Learning, Data Science, Artificial Intelligence, Tableau, AWS Cloud.</p>
+                        <p><strong>📅 Next Batch : Jan 03<sup>rd</sup> 2022 (09:30 am - 11:30 am)</strong></p>
+                        <p><strong>⏰ Duration: 6 Months, 5-6 Days a Week, 2-3 Hours/day&nbsp;</strong></p>
+                        <p><strong>🧑&zwj;🏫 Course Fees: <span>
+                                    <a href="course-detail/data-science-training-kochi" class="stroke-btn">View More</a>
+                                </span></strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container" style="padding:35px ;">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 ">
+                <div class="card r1" style="border: none; border-radius: 0;">
+                    <img src="./images/python.jpg" class="card-img-top" alt="..." style="border-radius:0 ;">
+                    <div class="card-body">
+                        <h5
+                            style="font-size: 23px;line-height: 25px;margin-bottom: 15px;font-weight: 500;color: #5e068a;margin-top: 10px;">
+                            Python Django - Angular- Full Stack Web Development Expert</h5>
+                        <p class="card-text" style="    margin-bottom: 15px;line-height: 1.8;font-weight: 500;">Core
+                            Python, Basics of Programming, Unix Commands, Advanced Python, Django
+                            Framework, REST API, Git, Angul...</p>
+                        <a href="#" class="btn btn-primary"
+                            style="border-radius: 0;border: none;font-weight: 400;text-transform: uppercase;background-color: #5e068a;">View
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 ">
+                <div class="card r1" style="border: none; border-radius: 0;">
+                    <img src="./images/st.jpg" class="card-img-top" alt="..." style="border-radius:0 ;">
+                    <div class="card-body">
+                        <h5 class="card-title"
+                            style="font-size: 23px;line-height: 25px;margin-bottom: 15px;font-weight: 500;color: #5e068a;margin-top: 10px;">
+                            Software Testing Specialist</h5> <br>
+                        <p class="card-text" style="    margin-bottom: 15px;line-height: 1.8;font-weight: 500;">Manual
+                            Testing, Java foundations, Mobile Testing, Selenium IDE, Selenium
+                            Web driver, Selenium Advanced Web...</p>
+                        <a href="#" class="btn btn-primary"
+                            style="border-radius: 0;border: none;font-weight: 400;text-transform: uppercase;background-color: #5e068a;">View
+                            more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 ">
+                <div class="card r1" style="border: none; border-radius: 0;">
+                    <img src="./images/ms.jpg" class="card-img-top" alt="..." style="border-radius:0 ;">
+                    <div class="card-body">
+                        <h5 class="card-title"
+                            style="font-size: 23px;line-height: 25px;margin-bottom: 15px;font-weight: 500;color: #5e068a;margin-top: 10px;">
+                            MEARN Stack Web Development Expert - Angular &amp; React</h5>
+                        <p class="card-text" style="    margin-bottom: 15px;line-height: 1.8;font-weight: 500;">HTML,
+                            CSS, Javascript, Bootstrap, Git, Typescript, MongoDB, MySQL,
+                            Express.JS, Angular, React.js and Node....</p>
+                        <a href="#" class="btn btn-primary"
+                            style="border-radius: 0;border: none;font-weight: 400;text-transform: uppercase;background-color: #5e068a;">View
+                            more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div style="text-align:center ;">
+        <button class="b5">view all courses</button>
+    </div>
+
     </div>
 
 
